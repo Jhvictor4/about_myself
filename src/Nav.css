@@ -1,0 +1,65 @@
+@supports (font-variation-settings: 'wdth' 115) {
+  h1 {
+    font-family: variable-font-family, sans-serif;
+  }
+}
+
+.nav{
+  background-color: #272727;
+  width: calc(10% + 2vmin);
+  color: white;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.content{
+ overflow: visible;
+ width: calc(8% + 2vmin);
+ font-weight: lighter;
+ font-family: helvetica;
+ position: fixed;
+ top: 20vh;
+ font-size: 2vmin;
+}
+
+.profile{
+  max-width: 9vw;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.links {
+  padding: 0;
+  display: flex;
+  flex: 1 auto;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.icon{
+  width: 100%;
+  margin: 0.2rem;
+  margin-top: 0px;
+  font-size: 3vmin;
+  color: white;
+}
+
+.icon:hover{
+  color: grey;
+}
+
+.little{
+  overflow: auto;
+
+  white-space: wrap;
+  color: grey;
+  font-size: 1.5vmin;
+  margin-bottom: 0px;
+}
+
+.little::-webkit-scrollbar { display: none; }
+
+.smoother{
+  font-size: 1.7vmin;
+}
