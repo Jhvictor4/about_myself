@@ -1,16 +1,14 @@
-import React, { useState } from 'react'
-import {Link} from "react-router-dom"
+import React from 'react'
 import './Nav.css'
 import profile from "./profile.png"
-import { render } from '@testing-library/react'
 
 function Nav() {
 
         return (
-            <div className="nav">
+            <div className="navi">
                 <div className="content">
-                  <img className="profile" src={ profile } />
-                  <p> 강지혁 | SNUCSE19 </p>
+                  <img className="profile" src={ profile } alt="Profile" />
+                  <p className="name"> 강지혁 | SNUCSE19 </p>
                   <p className="smoother"> Backend / Web Frontend Developing </p>
                   <p className="little"> Contact </p>
                   <ul className = "links">

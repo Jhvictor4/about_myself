@@ -21,7 +21,7 @@ const skills = `기술 스택: AWS, Django, Spring, React, Kotlin, C++ and C, Oc
 function App() {
   return (
     <div className="Wrapper">
-      <Nav/>
+      <Nav />
       <div className="App">
         <Text Header="About Me" Description={ about }/>
         <Text Header="Projects" Description="" isProject= {true}/>

@@ -4,7 +4,7 @@
   }
 }
 
-.nav{
+.navi{
   background-color: #272727;
   width: calc(10% + 2vmin);
   color: white;
@@ -62,4 +62,60 @@
 
 .smoother{
   font-size: 1.7vmin;
+}
+
+
+@media screen and (max-width:1024px){
+  .navi{
+    position: fixed;
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #272727;
+  }
+
+  .content{
+    overflow: visible;
+    width: 100%;
+    font-weight: lighter;
+    font-family: helvetica;
+    position: static;
+    font-size: 2vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .little{
+    display: none;
+  }
+
+  .links{
+    padding: 0;
+    display: block;
+    float: right;
+    flex: none;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .smoother{
+    display: none;
+  }
+
+  .name{
+  font-weight: bold;
+  font-size: 3vmin;
+  align-items: center;
+  margin: 0px;
+  }
+
+  .profile{
+    max-height: 15vh;
+    border-radius: 20px;
+    margin-bottom: 0px;
+  }
 }

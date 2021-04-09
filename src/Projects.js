@@ -8,7 +8,7 @@ function Projects({pheader, plink, typeoflink, pshort, pdescription}) {
             { pheader }
           </h1>
           <h2 className="pshort">
-           <a href={plink} target="_blank"> <i class={typeoflink} aria-hidden="true"></i> </a>
+           <a href={plink} target="_blank" rel="noreferrer"> <i class={typeoflink} aria-hidden="true"></i> </a>
            {pshort}
           </h2>
           <div className="pdescription">
