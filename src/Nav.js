@@ -12,13 +12,13 @@ function Nav() {
                   <p className="smoother"> Backend / Web Frontend Developing </p>
                   <p className="little"> Contact </p>
                   <ul className = "links">
-                      <a href="https://www.instagram.com/kangjirm/" class="icon">
+                      <a href="https://www.instagram.com/kangjirm/"  target="_blank" rel="noreferrer" class="icon">
                        <i class="fa fa-instagram" aria-hidden="true"></i>
                       </a>
-                      <a href="https://www.instagram.com/kangjirm/" class="icon">
+                      <a href="https://github.com/Jhvictor4" target="_blank" rel="noreferrer" class="icon">
                        <i class="fa fa-github" aria-hidden="true"></i>
                       </a>
-                      <a href="https://www.instagram.com/kangjirm/" class="icon">
+                      <a href="https://www.linkedin.com/in/%EC%A7%80%ED%98%81-%EA%B0%95-54a55020b/"  target="_blank" rel="noreferrer" class="icon">
                        <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                   </ul>

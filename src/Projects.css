@@ -31,3 +31,31 @@ i:hover {
   color: grey;
   decoration: none;
 }
+
+@media screen and (max-width:1024px){
+
+  .projectWrapper {
+    color: white;
+    justify-content: center;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .projectName {
+    font-weight: bold;
+    font-size: 3.5vmin;
+  }
+
+  .pshort{
+    color: grey;
+    font-weight: lighter;
+    font-size: 3vmin;
+  }
+
+  .pdescription{
+    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 3.5vmin;
+  }
+}
