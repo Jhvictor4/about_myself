@@ -9,7 +9,7 @@ function Nav() {
                 <div className="content">
                   <img className="profile" src={ profile } alt="Profile" />
                   <p className="name"> 강지혁 | SNUCSE19 </p>
-                  <p className="smoother"> Backend / Web Frontend Developing </p>
+                  <p className="smoother"> Backend Developer </p>
                   <p className="little"> Contact </p>
                   <ul className = "links">
                       <a href="https://www.instagram.com/kangjirm/"  target="_blank" rel="noreferrer" class="icon">
